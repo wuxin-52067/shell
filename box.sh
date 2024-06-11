@@ -64,7 +64,7 @@ show
 echo "请输入UUID [默认随机]"
 read uuid
 if [ "$uuid" == "" ];then
-uuid=$(uuidgen)
+uuid=$(cat /proc/sys/kernel/random/uuid)
 fi
 while true; do
 echo "请输入传输协议 [http,ws][默认http]"
