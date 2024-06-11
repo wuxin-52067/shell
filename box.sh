@@ -1,4 +1,4 @@
-system="/data/二进制文件夹/box"
+system="/data/box"
 
 show(){
 clear
