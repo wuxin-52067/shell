@@ -153,7 +153,7 @@ killall sing-box >/dev/null 2>&1
 fi
 rm -f $system/boxs
 rm -f $system/sing-box
-rm -f $system/box.sh
+rm -f $system/box
 echo ""
 echo "\033[33m🔰核心已卸载"
 elif [ "$str" == "6" ]; then
