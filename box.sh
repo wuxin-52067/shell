@@ -27,10 +27,10 @@ else
 vIPV4="vmess://"$(echo '{"add":"'$IPV4'","aid":"0","alpn":"","fp":"","host":"is.snssdk.com","id":"'$1'","net":"ws","path":"/","port":"'$3'","ps":"移动云-v4","scy":"auto","sni":"","tls":"","type":"","v":"2"}' | base64 -w 0)
 vIPV6="vmess://"$(echo '{"add":"'$IPV6'","aid":"0","alpn":"","fp":"","host":"is.snssdk.com","id":"'$1'","net":"ws","path":"/","port":"'$3'","ps":"移动云-v6","scy":"auto","sni":"","tls":"","type":"","v":"2"}' | base64 -w 0)
 fi
-echo "$config\n//v4=$vIPV4\n//v6=$vIPV6" > boxs
+echo "$config\n//v4=$vIPV4\n//v6=$vIPV6" > $system/boxs
 fi
-chmod 777 sing-box
-./sing-box run -c boxs >/dev/null 2>&1 &
+chmod 777 $system/sing-box
+$system/sing-box run -c boxs >/dev/null 2>&1 &
 echo ""
 echo "\033[32m代理状态: ✅"
 v4=$(grep '^//v4=' boxs | cut -d '=' -f 2)
@@ -41,6 +41,7 @@ echo "\033[36m$v4"
 echo ""
 echo "\033[33mIPV6节点 :"
 echo "\033[36m$v6"
+echo ""
 }
 
 get_singbox(){
@@ -63,6 +64,7 @@ clear
 show
 echo ""
 echo "❎ 无法下载核心文件请检查网络是否正常!"
+echo ""
 fi
 fi
 }
@@ -124,15 +126,18 @@ fi
 else
 echo ""
 echo "\033[32m代理状态: ✅"
+echo ""
 fi
 elif [ "$str" == "2" ]; then
 killall sing-box >/dev/null 2>&1
 echo ""
 echo "\033[31m代理状态: ❎"
+echo ""
 elif [ "$str" == "3" ]; then
 if [ $PS -eq 0 ]; then
 echo ""
 echo "\033[31m代理状态: ❎"
+echo ""
 else
 killall sing-box >/dev/null 2>&1
 echo ""
@@ -147,6 +152,7 @@ fi
 rm -f $system/boxs
 echo ""
 echo "\033[32m🔰核心所有已重置"
+echo ""
 elif [ "$str" == "5" ]; then
 if [ ! $PS -eq 0 ]; then
 killall sing-box >/dev/null 2>&1
@@ -156,9 +162,11 @@ rm -f $system/sing-box
 rm -f $system/box
 echo ""
 echo "\033[33m🔰核心已卸载"
+echo ""
 elif [ "$str" == "6" ]; then
 echo ""
 echo "\033[33m🔰脚本已退出"
+echo ""
 exit 1
 else
 clear
