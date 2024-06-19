@@ -33,8 +33,8 @@ chmod 777 $system/sing-box
 $system/sing-box run -c boxs >/dev/null 2>&1 &
 echo ""
 echo "\033[32m代理状态: ✅"
-v4=$(grep '^//v4=' boxs | cut -d '=' -f 2)
-v6=$(grep '^//v6=' boxs | cut -d '=' -f 2)
+v4=$(grep '^//v4=' $system/boxs | cut -d '=' -f 2)
+v6=$(grep '^//v6=' $system/boxs | cut -d '=' -f 2)
 echo ""
 echo "\033[33mIPV4节点 :"
 echo "\033[36m$v4"
