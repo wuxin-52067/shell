@@ -31,6 +31,6 @@ curl -Lo /bin/box https://raw.githubusercontent.com/wuxin-52067/shell/main/box.s
 box
 ```
 
-## 图文说明
+# 图文说明
+- 以下是一键安装命令执行完成后截图
    <img src="https://icdn.binmt.cc/2406/667372b94966a.png" alt="alt text" title="title" width="300"/>
-   - 以上是一键安装命令执行完成后截图
