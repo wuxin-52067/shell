@@ -36,4 +36,11 @@ box
 以上是一键安装命令执行完成后截图
 <img src="https://icdn.binmt.cc/2406/667377cb1a932.png" alt="alt text" title="title" width="300"/>
 以上是开启代理执行完成后截图
+这里我就说一下端口,默认是10003因为我测试的时候使用的是云手机标准版,标准版的端口基本上都是10003,如果你的云手机是别的套餐版本可以使用 netstat -anu 命令查看端口是多少
+<img src="https://icdn.binmt.cc/2406/66737a8c10161.png" alt="alt text" title="title" width="300"/>
+以上是执行 netstat -anu 命令后的截图 请认准10.开头IP后的端口
+```
+netstat -anu
+```
+
 
