@@ -34,4 +34,6 @@ box
 ## 图文说明
 <img src="https://icdn.binmt.cc/2406/667372b94966a.png" alt="alt text" title="title" width="300"/>
 以上是一键安装命令执行完成后截图
+<img src="https://icdn.binmt.cc/2406/667377cb1a932.png" alt="alt text" title="title" width="300"/>
+以上是开启代理执行完成后截图
 
