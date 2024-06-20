@@ -31,4 +31,4 @@ box
 ```
 
 ## 快捷停止
-   <img src="https://icdn.binmt.cc/2406/667372b94966a.png" alt="alt text" title="Optional title"/>
+   <img src="https://icdn.binmt.cc/2406/667372b94966a.png" alt="alt text" title="title" width="300"/>
