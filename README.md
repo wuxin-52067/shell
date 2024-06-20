@@ -21,12 +21,12 @@
 # 一键安装命令
 
 ```
-curl -Lo /data/box.sh https://raw.githubusercontent.com/wuxin-52067/shell/main/box.sh && cd /data && chmod 777 box.sh && ./box.sh start
+curl -Lo /bin/box https://raw.githubusercontent.com/wuxin-52067/shell/main/box.sh && chmod 777 /bin/box && box
 ```
 
-## 快捷启动
+## 快捷启动【脚本菜单】
 ```
-./data/box.sh start
+box
 ```
 
 ## 快捷停止
