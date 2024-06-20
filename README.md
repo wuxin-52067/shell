@@ -43,5 +43,6 @@ box
     <img src="https://icdn.binmt.cc/2406/66737d57bcce7.png" alt="alt text" title="title" width="300" style="display:inline"/>
     <img src="https://icdn.binmt.cc/2406/66737e0d3c41d.png" alt="alt text" title="title" width="300" style="display:inline"/>
 </div>
+执行完"开启代理"后把VMESS链接导入到真机的代理软件[例如v2rayNG]然后使用"黄鸟"抓包云手机APP找到上图2的UDP包的端口然后把v2rayNG中VMESSS节点的端口改成抓到的端口后就可以连接了
 
 
