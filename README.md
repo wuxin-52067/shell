@@ -24,7 +24,8 @@
 curl -Lo /bin/box https://raw.githubusercontent.com/wuxin-52067/shell/main/box.sh && chmod 777 /bin/box && box
 ```
 
-## 快捷启动【脚本菜单】
+## 快捷启动
+- 终端输入 box 即可呼出菜单
 ```
 box
 ```
