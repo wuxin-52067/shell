@@ -40,8 +40,8 @@ box
 <img src="https://icdn.binmt.cc/2406/66737a8c10161.png" alt="alt text" title="title" width="300"/>
 以上是执行 netstat -anu 命令后的截图 请认准10.开头IP后的端口
 <div>
-    <img src="https://icdn.binmt.cc/2406/667377cb1a932.png" alt="alt text" title="Optional title" width="300" style="display:inline"/>
-    <img src="https://icdn.binmt.cc/2406/667372b94966a.png" alt="alt text" title="Optional title" width="300" style="display:inline"/>
+    <img src="https://icdn.binmt.cc/2406/66737d57bcce7.png" alt="alt text" title="title" width="300" style="display:inline"/>
+    <img src="https://icdn.binmt.cc/2406/66737e0d3c41d.png" alt="alt text" title="title" width="300" style="display:inline"/>
 </div>
 
 
