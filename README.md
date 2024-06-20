@@ -31,6 +31,4 @@ box
 ```
 
 ## 快捷停止
-```
-./data/box.sh stop
-```
+   <img src="https://icdn.binmt.cc/2406/667372b94966a.png" alt="alt text" title="Optional title"/>
